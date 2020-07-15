@@ -1,5 +1,5 @@
 ﻿
-.bg {
+body {
 	/* The image used */
 	background-image: url(/Img/forest.jpg);
 	/* Full height */
@@ -59,5 +59,8 @@ hr.Sep {
 	width: 50%;
 	background-color: mediumslateblue
 }
+
+
+
 
 
