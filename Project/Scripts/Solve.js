@@ -36,6 +36,9 @@
 
 </script>
 
+
+    //Alternate Solution Code 
+
 <script>
         var input = document.getElementById("soafIn5");
         input.addEventListener("keyup", function (event) {
