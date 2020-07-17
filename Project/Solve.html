@@ -92,6 +92,11 @@
             <div class="row">
                 <div class="col-lg-12"><p class="text-center elWide h2 textBox" id="soafOut"></p></div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button id="clrBtn1" class="btn btn-outline-light text-center btnMarg">Clear</button>
+                </div>
+            </div>
 
         </div>
 
@@ -130,6 +135,11 @@
                 $("#soafOut").text(message);
                 $("#soafOut").show();
             });
+
+			$("#clrBtn1").on("click", function () {
+				$("#sumInput").val("");
+				$("#soafOut").hide();
+			});
 
         </script>
 
@@ -173,6 +183,11 @@
             <hr />
             <div class="row">
                 <div class="col-lg-12"><p class="text-center h2 textBox elWide" id="altOut"></p></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button id="clrBtn2" class="btn btn-outline-light text-center btnMarg">Clear</button>
+                </div>
             </div>
         </div>
 
@@ -231,7 +246,15 @@
                 $("#altOut").show();
             });
 
-
+			$("#clrBtn2").on("click", function () {
+                $("#soafK").val("");
+                $("#soafIn1").val("");
+                $("#soafIn2").val("");
+                $("#soafIn3").val("");
+                $("#soafIn4").val("");
+				$("#soafIn5").val("");
+				$("#altOut").hide();
+			});
 
         </script>
     </div>
